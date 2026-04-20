@@ -1,11 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MarkdownFormatter } from '@syncfusion/ej2-angular-richtexteditor';
 import { marked } from 'marked';
+import { RichTextEditorModule, ToolbarService, ImageService, LinkService, HtmlEditorService, MarkdownEditorService } from '@syncfusion/ej2-angular-richtexteditor';
+import { SplitterModule } from '@syncfusion/ej2-angular-layouts'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
+  imports: [RichTextEditorModule, SplitterModule],
+  standalone: true,
+  providers: [ToolbarService, ImageService, LinkService, HtmlEditorService, MarkdownEditorService],
 })
 export class AppComponent implements OnInit {
   title = 'myangularproject';

@@ -1,6 +1,6 @@
 # How to Create an Angular Rich Text Editor with Markdown Editor
 
-A quick-start Angular project that shows how to use Markdown editing in the Angular Rich Text Editor component. This project contains code to preview Markdown syntax for tables, images, and links in HTML and customize Markdown syntax.
+A quick-start Angular project that shows how to use Markdown editing in the [Angular Rich Text Editor](https://www.syncfusion.com/angular-components/angular-rich-text-editor) component. This project contains code to preview Markdown syntax for tables, images, and links in HTML and customize Markdown syntax.
 
 Refer to the following Markdown editor documentation for the Syncfusion Angular Rich Text Editor component: 
 https://ej2.syncfusion.com/angular/documentation/rich-text-editor/markdown 
